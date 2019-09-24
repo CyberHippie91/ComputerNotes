@@ -1,0 +1,50 @@
+<?php 
+	include 'structure.php';
+?>
+
+
+  <!-----------------------------------END OF NAV BAR-------------------------->
+
+  <!--------------------------------TITLE------------------------------------>
+  <div class="container-fluid title">
+    <h2 class="">NETWORK SECURITY </h2>
+  </div>
+
+  <!---------------------------------MAIN CONTENT---------------------------------->
+  <div class="container-fluid middle-section">
+    <div class="container content">
+      <p class="content">
+        In light of the internet’s conception and technologies constant revolution, we have seen the relationship between humans and technology evolve into a co-dependent partnership with much of our present lives heavily influenced and motivated by it. To have such a high level of dependency, emerging complications have the proficiency to inflict catastrophic consequences. Cyber security threats have grown and advanced alongside this, leading to the realisation in networking that “you can be very prepared, but you can never be impenetrable” (Viard, 2000). These vulnerabilities in security can be due to an ill-conceived security design, misconfigured devices, protocol defects and general human error.
+      </p>
+      <blockquote class="blockquote">
+        <p>
+      “Every day more than 157 million attempts were made (via emails, browser searches, etc.) to entice our customers into connecting to risky URLs […] more than 353 million infected files were exposed to our customers’ networks […] an additional 71 million potentially unwanted programs attempted installation or launch. Every day 55 million attempts were made by our customers to connect to risky IP addresses, or those addresses attempted to connect to customers’ networks.” (Weafer, 2016)
+        </p>
+      </blockquote>
+
+      <p class="content">
+        These attacks infiltrate and breach networks, in a variety of formations on different layers, with a spectrum of success. In 2015, McAfee released its annual report analysing annual cyber security characteristics and discovered the most popular choice of attack (responsible for 37% of all attacks) originated from the Denial Of Service (DoS) approach. This is followed by the Bruteforce method (responsible for 25%) and Browser attacks (responsible for 9%). In contrast to this, 2016 has seen an vast increase in attacks within the Browser environment with a leap from 9% to 36% due to new exploitation methods.
+
+      Attacks can be categorised in numerous fashions depending on genre, layer, age etc. According to Edney and Argbaugh, all attacks fall into one of two categories; passive and active.
+
+      Security features that can aid defence of a network include: using high level encryption whenever possible such as SMNPv3, HTTPS, SSH and other encrypted versions of protocols, only enabling protocols and ports that will be used by the network, using switched networks, mutual authentication methods such as PKI (Public Key Infrastructure) and anti-virus and malware protection/prevention software.         </p>
+
+      <p class="content">
+        Security management should include a detailed security policy devised of the protocols and mitigation techniques proposed and implemented as well as security details for each device.  SNMP will provide the capability to execute security configuration procedures through Network Access Control (NAC) applications. Following the architecture of AAA, good practices such as the following will be managed. Each network device should be configured with passwords for all modes to mitigate physical attacks in addition to each client maintaining a unique username and secret password.
+
+        The implementation of security configuration for ports should follow the shutdown if not in use mandate. Subsections in relation to business specifics such as VLAN’s should be implemented in the network design following standards such as configuring an alternative VLAN number than the default 1 for native and management VLAN’s to diminish the vulnerability to unauthorised access. Access Control Lists (ACL) should be configured to determine authorised addresses within a network. A firewall and NAT device should be installed to provide an autonomous and anonymous defence when connecting to public networks such as the internet. A reliable and trusted virus and malware protection software should be incorporated.
+      </p>
+<p class="content">
+      Firewalls will be a key element in protecting the network through various operations. Packet filtering and the ability to drop packets that are non-compliant or unauthorised is achieved through configuration of protocols on the AP such as HTTP, FTP, UDP, ICMP, SMTP, SNMP and telnet as described by Tyson in 2003. Another feature held by the firewall is the proxy server which retrieves web pages on behalf of the client thus eliminating any exposure and risk that ensues from direct contact. Firewalls also preform stateful inspection where portions of the packet’s content are assessed and compared against a database to analyse the security threat.</p>
+
+    </div>
+  </div>
+  
+  	<!-----------------------------------FOOTER-------------------------->
+	
+	  <div class="containter-fluid footer">
+        <h5>CSD304 Web and Network Management <br> Web Server Management and Monitoring <br> University Center Hastings <br> Lecturer Malcolm Levon</h5>
+		</div>
+	
+
+

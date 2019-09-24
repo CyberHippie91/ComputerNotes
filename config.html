@@ -1,0 +1,28 @@
+<?php 
+	include 'structure.php';
+?>
+
+  <!-----------------------------------END OF NAV BAR-------------------------->
+
+  <!--------------------------------TITLE------------------------------------>
+  <div class="container-fluid title">
+    <h2 class="">CONFIGURATION TOOL</h2>
+  </div>
+
+  <!---------------------------------MAIN CONTENT---------------------------------->
+  <div class="container-fluid middle-section content">
+    <h3 class="">Python Web Server Security Monitoring and Configuration Tool</h3>
+    <br><br><br><br>
+
+    <p class=""> This tool is capable of checking and identifying the ports that are open on the web server. From this information, the server administrator would be able to shutdown these ports if they were not intended to be active. It is best practice to place ports not being used into a vlan named blackhole. <br> This tool is written in the programming language Python 3.7.2.</p>
+	
+	<?php 
+	 $command = escapeshellcmd('python3 /scanner.py');
+    $output = shell_exec($command);
+    echo $output;
+	?>
+  </div>
+
+
+
+

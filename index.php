@@ -1,0 +1,103 @@
+<?php 
+	include 'structure.php';
+?>
+
+    <!-----------------------------------END OF NAV BAR-------------------------->
+
+      <!--------------------------------TITLE------------------------------------>
+      <div class="container-fluid title">
+        <h2 class="">CSD304 WEB AND NETWORK MANAGEMENT</h2>
+      </div>
+
+    <!---------------------------------MAIN CONTENT---------------------------------->
+    <div class="container-fluid middle-section">
+
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 animation-element slide-left">
+          <div class="card indexcards ">
+            <img class="card-img-top" src="src/img/snmo.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">SNMP</h5>
+              <p class="card-text">The Simple Network Management Protocol (SNMP) is designed for “collecting information from... </p>
+              <a href="snmp.php" class="btn btn-primary">READ MORE</a>
+            </div>
+          </div>
+        </div>
+		
+		 <div class="col-12 col-sm-6 col-md-6 col-lg-4 animation-element slide-left">
+          <div class="card indexcards ">
+            <img class="card-img-top" src="src/img/snake.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Python/Php Research</h5>
+              <p class="card-text">Python’s ease in learning curve, vast community resources and highly readable syntax.... </p>
+              <a href="research.php" class="btn btn-primary">READ MORE</a>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 animation-element slide-left">
+            <div class="card indexcards ">
+              <img class="card-img-top" src="src/img/cloud.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">CLOUD</h5>
+                <p class="card-text">Cloud computing supports centralised resources accessible to authorised clients remotely, however unlike... </p>
+                <a href="cloudnetwork.php" class="btn btn-primary">READ MORE</a>
+              </div>
+            </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 animation-element slide-left">
+              <div class="card indexcards ">
+                <img class="card-img-top" src="src/img/emerging.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">EMERGING TECHNOLOGY</h5>
+                  <p class="card-text">The proliferation of IoT devices fuels the migration and incorporation of mobile and cloud computing in the recent years has prompted innovation... </p>
+                  <a href="emerging.php" class="btn btn-primary">READ MORE</a>
+                </div>
+              </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 animation-element slide-left">
+                <div class="card indexcards ">
+                  <img class="card-img-top" src="src/img/security.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">NETWORK SECURITY</h5>
+                    <p class="card-text">Firewalls will be a key element in protecting the network through various operations. Packet filtering and the ability to... </p>
+                    <a href="networksecurity.php" class="btn btn-primary">READ MORE</a>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 animation-element slide-left">
+                  <div class="card indexcards ">
+                    <img class="card-img-top" src="src/img/hack.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">ATTACKS AND EXPLOITS</h5>
+                      <p class="card-text">In light of the internet’s conception and technologies constant revolution, we have seen the relationship between humans and technology evolve into a... </p>
+                      <a href="hack.php" class="btn btn-primary">READ MORE</a>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 animation-element slide-left">
+                    <div class="card indexcards ">
+                      <img class="card-img-top" src="src/img/managment.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">NETWORK MANAGEMENT</h5>
+                        <p class="card-text">Fault management is supported by the establishment of protocols such as Trivial File Transfer Protocol (TFTP), system log (syslog) ... </p>
+                        <a href="tasks.php" class="btn btn-primary">READ MORE</a>
+                      </div>
+                    </div>
+                    </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+	<!-----------------------------------FOOTER-------------------------->
+	
+	  <div class="containter-fluid footer">
+        <h5>CSD304 Web and Network Management <br> Web Server Management and Monitoring <br> University Center Hastings <br> Lecturer Malcolm Levon</h5>
+		</div>
